@@ -133,6 +133,9 @@ if(obstaclesGroup.isTouching(rocket)){
   
   }
 
+
+          camera.position.x = rocket.position.x;
+          camera.position.y = rocket.position.y;
   
     drawSprites();
 text("Score"+score,1200,50);
